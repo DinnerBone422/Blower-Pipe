@@ -23,7 +23,7 @@ function setup() {
   ball = new Ball(width / 2 + 80, height / 2 - 80, 80, 80);
   blower = new Blower(width / 2 - 50, height / 2 + 50, 150, 20);
   blowerMouth = new BlowerMouth(width / 2 + 70, height / 2 + 20, 100, 90);
-  button = createImg("./Assets/click.png");
+  button = createImg("./assets/click.png");
   button.position(20,30);
   button.size(50,50);
   button.mouseClicked(blow);
@@ -67,7 +67,7 @@ function setup() {
   ball = new Ball(width / 2 + 80, height / 2 - 80, 80, 80);
   blower = new Blower(width / 2 - 50, height / 2 + 50, 150, 20);
   blowerMouth = new BlowerMouth(width / 2 + 70, height / 2 + 20, 100, 90);
-  button = createImg("./Assets/click.png");
+  button = createImg("./assets/click.png");
   button.position(20,30);
   button.size(50,50);
   button.mouseClicked(blow);
