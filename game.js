@@ -15,7 +15,9 @@ var blowerMouth;
 var button;
 
 function setup() {
-  var canvas = createCanvas(500, 500);
+	var canvas = createCanvas(500, 500);
+	canvas.parent('Game');
+	rectMode(CENTER);
 
   engine = Engine.create();
   world = engine.world;
